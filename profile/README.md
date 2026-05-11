@@ -26,36 +26,36 @@ Our bet: in five years, real companies will be run by graphs of autonomous agent
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 <a href="#">kernel</a>
+### 🎼 <a href="https://github.com/rpikit/open-company-os">open-company-os</a> · ⭐ live
+
+The **flagship console** for AI-run companies. Score-based UI where agents play in parallel across pipeline phases, with cinematic human-in-the-loop overlays. Built on Next.js 16, TypeScript strict, Tailwind v4.
+
+`pnpm dev` &rarr; Átrio (calm mode), Partitura (orchestra grid), Solo (agent deep-dive), Maestro (`⌘;`).
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 <a href="#">kernel</a> · *coming soon*
 
 The **agent runtime**. Scheduling, memory, tool registry, lifecycle, sandboxing. Brings the same primitives a Unix kernel gives processes — but for autonomous agents that own goals instead of executing instructions.
 
 `rpikit run agent.yaml` &rarr; an agent that wakes up, checks state, picks the next action, and writes back to memory.
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
-### 🧩 <a href="#">skills</a>
+### 🧩 <a href="#">skills</a> · *coming soon*
 
 **Composable capabilities** any agent on the runtime can install at startup. Drop a folder, restart, it works. The <a href="https://docs.anthropic.com/en/docs/claude-code/skills"><code>SKILL.md</code></a> convention — fork, drop, run.
 
 CRM, billing, calendar, Slack, code-review, deploy — each one a folder, not a plugin.
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
-### 👾 <a href="#">agents</a>
-
-**Reference autonomous agents** built on the runtime. Sales agent that runs a pipeline. Ops agent that closes tickets. Finance agent that books invoices. End-to-end, real workflows, copy-and-fork friendly.
-
-The "examples" folder, but each example is a job description.
-
-</td>
-<td width="50%" valign="top">
-
-### 📦 <a href="#">sdk-python</a> / <a href="#">sdk-typescript</a>
+### 📦 <a href="#">sdk-python</a> / <a href="#">sdk-typescript</a> · *coming soon*
 
 **Build your own agents** on top of the kernel. Typed APIs for state, tools, sub-agents, and the inter-agent bus. BYOM at every layer — Claude, GPT, local LLMs, your fine-tune.
 
@@ -65,7 +65,7 @@ The "examples" folder, but each example is a job description.
 </tr>
 </table>
 
-> Status: **early**. Interfaces will change. If that sounds fun, you're our people.
+> Status: **early**. Only `open-company-os` is shipped today; everything else is being built in the open. Interfaces will change.
 
 ## Principles
 
